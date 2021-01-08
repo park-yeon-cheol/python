@@ -1,4 +1,14 @@
-n=int(input())
-for i in range(0,n):
-    a=float(input())*0.8
-    print('$%.2f'%(round(a,2)))
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+p=int(input())
+x=a*p
+if p>c:
+    y=b+(p-c)*d
+    print(min(x,y))
+else:
+    y=b
+    print(min(x,y))
+
+
