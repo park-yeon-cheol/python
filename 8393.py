@@ -3,16 +3,16 @@
 
 n=int(input())
 x=1
-sum=0
+result=0
 while x<=n:
-    sum=sum+x
+    result=result+x
     x=x + 1
-print(sum)
+print(result)
 
 #while문을 이용하여 풀어주었다.
 
 a=int(input())
-result=sum(n for n in range(1,a+1))
-print(result)
+ans=sum(n for n in range(1,a+1))
+print(ans)
 
 #sum함수를 이용해서 코드 수를 더 줄일 수 있다.
