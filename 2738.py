@@ -11,3 +11,6 @@ for i in range(n):
         result.append(arr[i][j]+arr1[i][j])
         print(result[j],end=' ')
     print()
+
+
+    
